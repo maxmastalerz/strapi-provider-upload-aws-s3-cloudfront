@@ -1,0 +1,24 @@
+{
+  "name": "strapi-provider-upload-aws-s3-cloudfront",
+  "version": "3.6.2",
+  "description": "AWS S3 provider for strapi upload with cdn (cloudfront)",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.713.0",
+    "lodash": "^4.17.19"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "engines": {
+    "node": ">=10.10.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  }
+}
