@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-aws-s3-cloudfront",
-  "version": "3.6.3",
+  "version": "3.6.4",
   "description": "AWS S3 provider for strapi upload with cdn (cloudfront)",
   "directories": {
     "lib": "./lib"

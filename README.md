@@ -7,7 +7,7 @@ package.json:
   ...
 
   "dependencies": {
-    "strapi-provider-upload-aws-s3-cloudfront": "0.0.1"
+    "strapi-provider-upload-aws-s3-cloudfront": "3.6.4"
   }
 
   ...
