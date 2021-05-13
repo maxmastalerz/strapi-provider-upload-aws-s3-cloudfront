@@ -20,5 +20,9 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"no tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxmastalerz/strapi-provider-upload-aws-s3-cloudfront.git"
   }
 }
