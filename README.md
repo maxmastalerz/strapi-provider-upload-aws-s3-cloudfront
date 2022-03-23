@@ -1,20 +1,16 @@
 This is just a slight change to [strapi-provider-upload-aws-s3](https://www.npmjs.com/package/strapi-provider-upload-aws-s3)
 
-package.json:
 
-```json
-{
-  ...
-
-  "dependencies": {
-    "strapi-provider-upload-aws-s3-cloudfront": "3.6.4"
-  }
-
-  ...
-
-}
+Install via
+```
+npm install strapi-provider-upload-aws-s3-cloudfront
+```
+or
+```
+yarn install strapi-provider-upload-aws-s3-cloudfront
 ```
 
+---
 config/plugins.js:
 
 ```js
