@@ -25,8 +25,8 @@ module.exports = ({ env }) => {
       params: {
         Bucket: env('AWS_S3_BUCKET'),
       },
-      // Fully qualified URL with trailing backslash:
-      cdn: env('AWS_CLOUDFRONT') // eg: "https://abc123tuvwxyz.cloudfront.net/"
+      // Fully qualified URL with trailing forwardslash:
+      cdn: env('CLOUDFRONT_URL') // eg: "https://abc123tuvwxyz.cloudfront.net/"
     },
   },
   //...
