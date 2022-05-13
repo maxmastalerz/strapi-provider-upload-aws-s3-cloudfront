@@ -17,7 +17,7 @@ package.json:
 
 config/plugins.js:
 
-```
+```js
 module.exports = ({ env }) => {
   //...
   upload: {
@@ -29,7 +29,8 @@ module.exports = ({ env }) => {
       params: {
         Bucket: env('AWS_S3_BUCKET'),
       },
-      cdn: env('AWS_CLOUDFRONT')
+      cdn: env('AWS_CLOUDFRONT'),
+      ACL: "public-read"  // OPTIONAL: if files are distributed via CDN, S3 bucket should be private, this field should be left empty.     
     },
   },
   //...
